@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984794605706",
+    "project_id": "auefp-65b33",
+    "storage_bucket": "auefp-65b33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984794605706:android:3e2325515cc4e5f4a8a573",
+        "android_client_info": {
+          "package_name": "com.example.auefp_all_university_event_and_fest__ortal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984794605706-2g0ki1ddrl5etgbgciglma9uvha2sn2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF6o8xqYmCqk-YirulhIofBUdtHKLognk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984794605706-2g0ki1ddrl5etgbgciglma9uvha2sn2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
