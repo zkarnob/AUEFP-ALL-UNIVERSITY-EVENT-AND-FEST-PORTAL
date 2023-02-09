@@ -16,14 +16,14 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-public class MainActivity extends AppCompatActivity {
+public class add extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_add);
         bottomNavigationView =findViewById(R.id.bottom_navigator);
         bottomNavigationView.setSelectedItemId(R.id.home);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -32,12 +32,12 @@ public class MainActivity extends AppCompatActivity {
                 switch ((item.getItemId()))
                 {
                     case R.id.home:
-
-                       return true;
-                    case  R.id.placeholder:
-                        Intent intent=new Intent(MainActivity.this,add.class);
+                        Intent intent=new Intent(add.this,MainActivity.class);
                         startActivity(intent);
-                      return  true;
+                        return true;
+                    case  R.id.placeholder:
+
+                        return  true;
 
                 }
                 return false;
