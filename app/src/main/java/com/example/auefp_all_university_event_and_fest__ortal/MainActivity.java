@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
                        return true;
                     case  R.id.placeholder:
-                        Intent intent=new Intent(MainActivity.this,add.class);
+                        Intent intent=new Intent(MainActivity.this,zero.class);
                         startActivity(intent);
                       return  true;
 

@@ -31,6 +31,20 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".zero"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".ImagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".imageupactivity"
+            android:exported="false">
+
         </activity>
     </application>
 
