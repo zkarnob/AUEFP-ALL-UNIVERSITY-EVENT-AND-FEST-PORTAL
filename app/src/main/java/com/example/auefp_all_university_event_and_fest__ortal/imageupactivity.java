@@ -167,7 +167,7 @@ private CardView cardView;
         }
     }
     private void openImagesActivity() {
-        Intent intent = new Intent(this, ImagesActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
