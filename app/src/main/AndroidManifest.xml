@@ -15,11 +15,14 @@
             android:name=".add"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Login_Activity"
             android:exported="false" />
         <activity
-            android:name=".Login_Activity"
-            android:exported="true">
+            android:name=".Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,14 +30,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Signup_Activity"
-            android:exported="false">
+            android:name=".zero"
+            android:exported="false" >
+
         </activity>
-
         <activity
-            android:name=".MainActivity"
+            android:name=".imageupactivity"
             android:exported="false">
-
 
         </activity>
     </application>
