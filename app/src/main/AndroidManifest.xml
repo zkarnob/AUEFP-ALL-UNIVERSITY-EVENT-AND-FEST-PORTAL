@@ -12,17 +12,25 @@
         android:theme="@style/Theme.AUEFP_ALL_UNIVERSITY_EVENT_AND_FEST_ORTAL"
         tools:targetApi="31">
         <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".add"
             android:exported="false" />
         <activity
             android:name=".Login_Activity"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".Signup_Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,14 +39,10 @@
         </activity>
         <activity
             android:name=".zero"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".imageupactivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

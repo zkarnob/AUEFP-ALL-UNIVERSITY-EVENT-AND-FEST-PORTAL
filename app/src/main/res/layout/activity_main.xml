@@ -26,7 +26,7 @@
         android:id="@+id/bottom_navigator"
         android:layout_marginRight="16dp"
         app:menu="@menu/bottom_nav_menu"
-        android:background="@drawable/trasparent_background"
+
         android:layout_alignParentBottom="true"
         app:fabCradleMargin="10dp"
         app:fabCradleRoundedCornerRadius="10dp"

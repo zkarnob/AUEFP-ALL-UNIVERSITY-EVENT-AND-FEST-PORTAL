@@ -70,6 +70,10 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.OnIt
                         Intent intent=new Intent(MainActivity.this,imageupactivity.class);
                         startActivity(intent);
                         return  true;
+                    case  R.id.person:
+                        Intent intent1=new Intent(MainActivity.this,ProfileActivity.class);
+                        startActivity(intent1);
+                        return  true;
 
                 }
                 return false;
