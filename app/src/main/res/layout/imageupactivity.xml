@@ -47,19 +47,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
         android:text="Upload" />
 
     <TextView
         android:id="@+id/text_view_show_uploads"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button_upload"
         android:layout_alignTop="@+id/button_upload"
-        android:layout_marginStart="25dp"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="-3dp"
         android:layout_toEndOf="@+id/button_upload"
         android:gravity="center"
-        android:text="Show Uploads"
+        android:text="Cancel"
         android:textSize="16sp" />
 
 </RelativeLayout>
