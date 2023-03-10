@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.OnIt
 
     @Override
     public void onItemClick(int position) {
-        Toast.makeText(this, "Normal click at position: " + position, Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "Normal click at position: " + position, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -135,6 +135,14 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.OnIt
                 Toast.makeText(MainActivity.this, "Item deleted", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    public void ondetailsClick(int position) {
+        Intent intent=new Intent(MainActivity.this,pdfadd.class);
+        startActivity(intent);
+
+
     }
 
     @Override

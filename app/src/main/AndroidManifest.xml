@@ -18,7 +18,7 @@
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".add"
+            android:name=".pdfadd"
             android:exported="false" />
         <activity
             android:name=".Login_Activity"
@@ -36,6 +36,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".zero"
