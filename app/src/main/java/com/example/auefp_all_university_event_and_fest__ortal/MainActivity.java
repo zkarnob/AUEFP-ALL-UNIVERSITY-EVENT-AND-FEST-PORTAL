@@ -1,5 +1,6 @@
 package com.example.auefp_all_university_event_and_fest__ortal;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -8,6 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.OnIt
 
     private List<Upload> mUploads;
 
+    AlertDialog.Builder builder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -122,19 +125,61 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.OnIt
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
     @Override
     public void onDeleteClick(int position) {
+        builder = new AlertDialog.Builder(this);
+        builder.setMessage("one") .setTitle("tow");
         Upload selectedItem = mUploads.get(position);
         final String selectedKey = selectedItem.getKey();
 
         StorageReference imageRef = mStorage.getReferenceFromUrl(selectedItem.getImageUrl());
-        imageRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
-            @Override
-            public void onSuccess(Void aVoid) {
-                mDatabaseRef.child(selectedKey).removeValue();
-                Toast.makeText(MainActivity.this, "Item deleted", Toast.LENGTH_SHORT).show();
-            }
-        });
+
+        //Setting message manually and performing action on button click
+        builder.setMessage("Do you want to Delete this event ?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                        imageRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void aVoid) {
+                                mDatabaseRef.child(selectedKey).removeValue();
+                                Toast.makeText(MainActivity.this, "Item deleted", Toast.LENGTH_SHORT).show();
+                                Intent intent=new Intent(MainActivity.this,MainActivity.class);
+                                startActivity(intent);
+
+                            }
+                        });
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        //  Action for 'NO' Button
+                        dialog.cancel();
+
+                    }
+                });
+        //Creating dialog box
+        AlertDialog alert = builder.create();
+        //Setting the title manually
+        alert.setTitle("");
+        alert.show();
+
+
+
+
     }
 
     @Override
