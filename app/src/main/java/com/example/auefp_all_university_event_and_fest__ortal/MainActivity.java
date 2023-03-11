@@ -2,6 +2,7 @@ package com.example.auefp_all_university_event_and_fest__ortal;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -120,21 +121,18 @@ public class MainActivity extends AppCompatActivity implements ImageAdapter.OnIt
     @Override
     public void onWhatEverClick(int position) {
       //  Toast.makeText(this, "Whatever click at position: " + position, Toast.LENGTH_SHORT).show();
-        Intent intent=new Intent(MainActivity.this,zero.class);
-        startActivity(intent);
+   openurl("https://docs.google.com/forms/d/e/1FAIpQLSfG_zvs0ink2e-0LuXX9OkJ3XlHUpBNnuxZGg2eRkrdFfgKmw/viewform?usp=sf_link");
+
 
     }
 
+    private void openurl(String url) {
+         Uri uri= Uri.parse(url);
+         Intent intent=new Intent(Intent.ACTION_VIEW,uri);
+         startActivity((intent));
 
 
-
-
-
-
-
-
-
-
+    }
 
 
     @Override
