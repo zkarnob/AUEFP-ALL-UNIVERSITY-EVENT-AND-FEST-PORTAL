@@ -14,4 +14,7 @@
 
 ## Screenshots
 
+<p align="center">
+![image](https://github.com/zkarnob/SWE350_ProJect_BusServiceManagement/assets/100875589/6a846cc6-5994-41fe-ae77-e9a9eb14b3d5)
 
+</p>
