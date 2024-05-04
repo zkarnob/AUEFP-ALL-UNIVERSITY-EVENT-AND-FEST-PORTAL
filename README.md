@@ -24,13 +24,14 @@
 
 ![Screenshot 2024-05-05 003355](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/98b1d720-d331-4937-8a37-967c1fcf01ef)
 
-![Screenshot 2024-05-05 003342](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/acce4066-875b-4b41-a64d-378d5abd7f3b)
+![Screenshot 2024-05-05 004134](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/d675e59b-1d91-4896-aee1-777f080626b7)
+
 
 
 
 ![Screenshot 2024-05-05 003421](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/ae5532fd-e2a5-4c80-87ab-c00b0be1605d)
 
-![Screenshot 2024-05-05 003409](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/672df817-5ecc-489c-ba84-242c7c7d4591)
+![image](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/db83bd29-8f9c-4d1b-bcb2-2ea24633344f)
 
 
 
