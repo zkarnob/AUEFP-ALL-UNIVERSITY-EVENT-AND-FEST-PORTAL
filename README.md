@@ -14,11 +14,9 @@
 
 ## Screenshots
 
-<p align="center">
-![Screenshot 2024-05-05 001523](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/1b381217-e8ec-43ff-bce2-d29305ba7aa5)
+<div align="center">
+  <img src="https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/1b381217-e8ec-43ff-bce2-d29305ba7aa5" alt="Screenshot 2024-05-05 001523">
+</div>
 
 
 
-</p>
-
-![Screenshot 2024-05-05 001523](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/1b381217-e8ec-43ff-bce2-d29305ba7aa5)
