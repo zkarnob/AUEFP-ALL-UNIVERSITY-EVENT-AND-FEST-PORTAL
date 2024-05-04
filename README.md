@@ -15,6 +15,7 @@
 ## Screenshots
 
 <p align="center">
-![image](https://github.com/zkarnob/SWE350_ProJect_BusServiceManagement/assets/100875589/6a846cc6-5994-41fe-ae77-e9a9eb14b3d5)
+![Screenshot 2024-05-05 001523](https://github.com/zkarnob/AUEFP-ALL-UNIVERSITY-EVENT-AND-FEST-PORTAL/assets/100875589/1b381217-e8ec-43ff-bce2-d29305ba7aa5)
+
 
 </p>
